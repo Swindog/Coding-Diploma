@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Swinny's Delights</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+<nav>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+    <li><a href="order.html">Order Today!</a></li>
+</ul>
+<div>
+
+    <h1>Order your cheesecake today!</h1>
+
+    <p>To order your cheesecake, please fill out the form below. We will get back to you as soon as possible.</p>
+
+    <form action="order.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="cheesecake">Cheesecake Flavor:</label><br>
+        <select id="cheesecake" name="cheesecake">
+            <option value="lemoncurd">Lemon-Curd</option>
+            <option value="oreo">Oreo</option>
+            <option value="caramel">Caramel</option>
+            <option value="butterscotch">butterscotch</option>
+            <option value="Strawberry">Strawberry</option>
+        </select><br><br>
+
+        <input type="submit" value="Order Now">
+
+
+</div>
+</body>
+</html>
